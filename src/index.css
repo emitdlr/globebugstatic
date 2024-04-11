@@ -1,0 +1,30 @@
+.App {
+  position: relative;
+  height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+.App-header {
+  position: absolute;
+  top: 30%; /* Adjust the top position to move it higher on the screen */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em; /* Increase font size for larger text */
+}
+
+.background-logo {
+  background-image: url("./whitelogo.jpg"); /* Set the path to your logo image */
+  background-size: contain; /* Adjust size to fit the entire image without cropping */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+  position: absolute; /* Position the logo */
+  top: 0; /* Position from the top */
+  left: 0; /* Position from the left */
+  width: 100%; /* Set width to cover the entire viewport */
+  height: 100%; /* Set height to cover the entire viewport */
+  opacity: 0.5; /* Adjust opacity if needed */
+  z-index: -1; /* Move the logo behind other content */
+}
