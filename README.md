@@ -1,0 +1,2 @@
+# globebugstatic
+Static Globebug page
