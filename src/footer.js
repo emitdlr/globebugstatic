@@ -50,7 +50,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/company/globebug"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "inherit", textDecoration: "none" }}
