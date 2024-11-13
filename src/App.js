@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer";
 import "./index.css"; // Import CSS file for styling
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <h1>Globebug is coming soon!</h1>
       </header>
+      <Footer /> {/* Footer at the bottom */}
     </div>
   );
 }
