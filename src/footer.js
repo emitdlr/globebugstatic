@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import facebookIcon from "./assets/logo-facebook.svg"; // Adjust the path as needed
 import instagramIcon from "./assets/logo-instagram.svg"; // Adjust the path as needed
 import linkedinIcon from "./assets/logo-linkedin.svg"; // Adjust the path as needed
@@ -21,6 +22,18 @@ const Footer = () => {
         }}
       >
         <p style={{ margin: 0 }}>© 2024 Globebug. All Rights Reserved.</p>
+
+        {/* Privacy Policy Link */}
+        <Link
+          to="/privacypolicy"
+          style={{
+            color: "inherit",
+            textDecoration: "none",
+            marginLeft: "10px",
+          }}
+        >
+          Privacy Policy
+        </Link>
 
         {/* Social Media Icons */}
         <a
